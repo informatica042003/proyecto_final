@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Prácticas Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Portal de Prácticas Web</h1>
+        </header>
+        
+        <nav class="menu-container">
+            <button class="menu-toggle">☰ Menú</button>
+            <ul class="menu" id="mainMenu">
+                <!-- El menú se generará dinámicamente con JavaScript -->
+            </ul>
+        </nav>
+        
+        <main>
+            <iframe id="contentFrame" src="about:blank" frameborder="0"></iframe>
+            <div class="url-container">
+                <input type="text" id="pageUrl" placeholder="Introduce URL o selecciona del menú">
+                <button id="loadPage">Cargar</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2025 Portal de Páginas Web. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
